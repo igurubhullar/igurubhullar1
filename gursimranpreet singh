@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+</head>
+</body>
+
+<header class="Overlay">
+    <img src="img.webp" alt="Main Image" width="400" height="280">
+    <h1 id="Textoverlay">Welcome to Camping World</h1>
+  </header>
+  <article>
+    <img src="jpg.jpg" alt="Article Image" width="500" height="400">
+    <p class="Para1"Camping is a type of outdoor learning and recreation that involves spending the night in a simple, makeshift shelter, like a tent. A recreational vehicle, covered cabins, a permanent tent, a tarp or bivy, or no shelter at all can also be used for camping.<q> The majority of participants depart from developed areas to spend time outside engaging in enjoyable or educational activities. What sets camping apart from other outdoor activities like day trips and picnics is spending the night away from home.</p>
+    <p class="Para2">In the early 20th century, camping gained popularity among elites as a leisure activity. It became more and more well-liked over time among other socioeconomic groups. Contemporary campers often visit state and national parks, wilderness areas, and commercial campgrounds that are owned by the government. Some nations, like Sweden and Scotland, permit public camping on privately owned territory. Many youth organizations, including Scouting, use camping as a key component to teach both self-reliance and teamwork. In addition to their many advantages, school camping trips can be very important for students' personal development.</p>
+  </article>
+  <h2>Facts About Camping</h2>
+  <ul>
+    <li>The word “camping” comes from the Latin word “campus,” which means “field.”</li>
+    <li>Camping can improve your mood and reduce stress levels.</li>
+    <li>The most popular camping activities are hiking, swimming, and fishing.</li>
+    <li>Camping can improve your sleep quality.</li>
+
+  </ul>
+  <h2>Contact Us for more Information about booking:</h2>
+  <p><i>* required</i></p>
+  <form>
+    <div><label for="name">Name:*</label></div>
+    <input type="text" id="name" name="name"rows="4" cols="50" placeholder="Gursimranpreet singh"required></textarea>
+    <div><label for="age">Age:*</label></div>
+    <input type="email" id="email" name="email" rows="4" cols="50" placeholder="21"required></textarea>
+    <div><label for="Phone number"> Phone No.:*</label></div>
+    <input type="tel" id="number" name="number"rows="5" cols="50" placeholder="6477178308"required></textarea>
+    <div><label for="Address">Address:*</label></div>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="49 towenley cresent" required></textarea>
+    <div><label for="Parent's name">Parent's Name:*</label></div>
+    <input type="text" id="name" name="name"rows="5" cols="50" placeholder="Balwinder singh and paramjit kaur"required></textarea>
+    <div><label for="Date">Month and year of Contacting:*</label></div>
+    <input type="month" id="number" name="Number"rows="5" cols="50" placeholder="November 2023"required></textarea>
+
+    <p><button type="submit">Submit</button></p>
+  </form>
+  <p>
+    &copy; 2023 Camping World. All rights reserved.
+  </p>
